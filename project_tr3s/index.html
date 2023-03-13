@@ -38,22 +38,25 @@
         </section>
         <section>
             <div class="login">
+                <form class="forma" action="" method="get">
                 <div class="container">
                     <h1>CADASTRO:</h1>
                     <label class="label-container" for="name">nome</label>
-                    <input class="name-container" id="name" type="text" name="nome" required>
+                    <input class="nome_container" id="name" type="text" name="nome" required>
                 </div>
                 <div class="container">
                     <label class="label-container" for="number">celular</label>
-                    <input class="name-container" id="number" type="tel" name="number" required>
+                    <input class="celular" id="number" type="tel" name="number" required>
                 </div>
                 <div class="container">
                     <label class="label-container" for="email">email</label>
-                    <input class="name-container" id="name" type="email" name="email" required>
+                    <input class="email" id="name" type="email" name="email" required>
                 </div>
                 <div >
-                    <button class="botao"><a href="#">Entre em Contato</a></button>
+                    <button class="botao">Entre em contato</button>
                  </div>
+                </form>
+                <div class="resultado"></div>
             </div>
         </section>
     </div>
@@ -81,22 +84,25 @@
         <section>
             <h1 class="contato">Contato</h1>
             <div class="login-2">
-                <div class="container">
-                    <h1>CADASTRO:</h1>
-                    <label class="label-container" for="name">nome</label>
-                    <input class="name-container" id="name" type="text" name="nome" required>
-                </div>
-                <div class="container">
-                    <label class="label-container" for="number">celular</label>
-                    <input class="name-container" id="number" type="tel" name="number" required>
-                </div>
-                <div class="container">
-                    <label class="label-container" for="email">email</label>
-                    <input class="name-container" id="name" type="email" name="email" required>
-                </div>
-                <div >
-                    <button class="botao"><a href="#">Entre em Contato</a></button>
-                 </div>
+                <form class="forma" action="" method="get">
+                    <div class="container">
+                        <h1>CADASTRO:</h1>
+                        <label class="label-container" for="name">nome</label>
+                        <input class="nome_container" id="name" type="text" name="nome" required>
+                    </div>
+                    <div class="container">
+                        <label class="label-container" for="number">celular</label>
+                        <input class="celular" id="number" type="tel" name="number" required>
+                    </div>
+                    <div class="container">
+                        <label class="label-container" for="email">email</label>
+                        <input class="email" id="name" type="email" name="email" required>
+                    </div>
+                    <div >
+                        <button class="botao">Entre em contato</button>
+                     </div>
+                    </form>
+                    <div class="resultado"></div>
             </div>
         </section>
         <section>
@@ -121,5 +127,7 @@
             <p>1234756789</p>
         </div>
     </footer>
+    <div class="resutado" id="resultado"></div>
+    <script src="script.js"></script>
 </body>
 </html>
