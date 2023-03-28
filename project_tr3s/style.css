@@ -85,6 +85,10 @@ body{
     box-sizing: border-box;
 }
 
+form input:focus{
+    outline: 2px solid white;
+}
+
 .botao{
     width: 100%;
     padding: 1px;
@@ -95,7 +99,10 @@ body{
     background-color: #1a3a6e;
     color: #FFFFFF;
    cursor: pointer;
-   box-shadow: 0px 5px 5px #27272A; ;
+   box-shadow: 0px 5px 5px #27272A; 
+}
+form button:hover{
+    background: #27272A;
 }
 
 .img{
@@ -179,4 +186,31 @@ body{
 }
 .resultado{
     color: white;
+}
+
+
+.colaboradores{
+    margin-left: 8cm;
+}
+.jade{
+    margin-left: 8cm;
+    width: 8cm;
+}
+
+.servicosImg{
+    margin-left: 2cm;
+    
+}
+
+.servicosImg2{
+    margin: 2cm 0 2cm 10cm;
+}
+
+.img2{
+    padding-left: 2cm;
+    padding-right: 2cm;
+}
+
+a{
+    color: currentColor;
 }
