@@ -114,7 +114,7 @@ form button:hover{
 .info{
     display: flex;
     flex-direction: column;
-    width: 33%;
+    width: 80%;
     font-size: 30px;
     margin-left: 1.5cm;
     margin-bottom: 1.5cm;
@@ -148,6 +148,25 @@ form button:hover{
     padding-left: 1cm;
     font-family: 'MuseoModerno';
     font-size: 40px;
+}
+.sobre-nos{
+    display: flex;
+}
+.contatoSobre{
+    background-color: #0047BB;
+    width: 70%;
+    border: 10px solid #0047BB;
+    border-radius: 5px;
+    margin-bottom:2cm;
+    padding-left: 1cm;
+    font-family: 'MuseoModerno';
+    font-size: 40px;
+}
+.whatsap{
+    margin-left: 16cm;
+}
+.mapa{
+    margin-top: 1cm;
 }
 
 .login-2{
@@ -192,10 +211,6 @@ form button:hover{
 .colaboradores{
     margin-left: 8cm;
 }
-.jade{
-    margin-left: 8cm;
-    width: 8cm;
-}
 
 .servicosImg{
     margin-left: 2cm;
@@ -214,3 +229,18 @@ form button:hover{
 a{
     color: currentColor;
 }
+
+.jade{
+    display: flex;
+    margin-left:10cm;
+    width: 8cm;
+}
+
+.sicrana{
+    margin-left: 7cm;
+    padding-right: 6cm;
+    margin-bottom: 2cm;
+}
+
+
+
